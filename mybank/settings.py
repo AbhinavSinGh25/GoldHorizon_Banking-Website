@@ -126,7 +126,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+CSRF_TRUSTED_ORIGINS=['https://vulfree-goldhorizon.azurewebsites.net']
 # HSTS SETTINGS
 SECURE_HSTS_SECONDS = 31536000  # One year
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
